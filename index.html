@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="cesar.css">
+
+</head>
+    
+    <body>
+        
+            <input type="text" id="texto">
+            <select id="tipoEncriptacao">
+                <option value="selecione" disabled selected>Selecione</option>
+                <option value="cifradecesar">Cifra de César</option>
+                <option value="base64">Base 64</option>
+            </select>
+
+            <label for ="">Escolha uma opção</label>
+            <input type="radio" name="codificacao" id="codificar">
+            <label for= "codificar">Codificar</label>
+            <input type="radio" name="codificacao" id="decodificar">
+            <label for="decodificar">Decodificar</label>
+            <br>
+            <br>
+            <h3><p>Selecione o Contador</p></h3>
+            
+            <input type="number" id="numero">
+            <button id="enviar" onclick="codifica()">Enviar</button>
+            <div id="resultado">Seu resultado aqui!</div>
+            
+
+
+            
+
+
+        
+    
+    <script src="java.js"></script>
+ </body>
+</html>

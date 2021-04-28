@@ -1,0 +1,84 @@
+body {
+    font: 16px Arial,sans-serif;
+    background: #FFFFFF;
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+    }
+    body {
+    display: block;
+    margin: 8px;
+    }
+
+    button{
+    font-family: Helvetica,Arial,serif,sans-serif;
+    color: #4b314f;
+    margin: 2px;
+    border: solid 2px #021811;
+    border-radius: 4px;
+    padding: 4px 6px;
+    font-size: 20px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    }
+   
+    input {
+    -webkit--webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    margin: 0em;
+    font: 400 20px Arial;
+    padding: 2px 3px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    }
+
+    input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 15px 15px 0px 3px;
+    padding: initial;
+    border: initial;
+    display: inline-block;
+    }
+
+    #resultado{
+    border-style: groove;
+    text-align:center;
+    padding: 6px, 4px;
+    border-style: solid;
+    margin: 50px;
+    font-size: 20px;
+    display: block;
+    background-color: lemonchiffon;
+    }
+
+    #tipoEncriptacao {
+        border-bottom-width:medium;
+        margin: auto;
+        display: block;
+        padding: 5px;
+    }
+  
+    #numero{
+        display:inline-block;
+        background-color: lightcoral;
+        text-align: center;
+    }
+  
